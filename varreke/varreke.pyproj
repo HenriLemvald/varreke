@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6a6b9bc5-8fb8-48f2-b31b-e12900e612fe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>varreke.py</StartupFile>
+    <StartupFile>too_1_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

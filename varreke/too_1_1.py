@@ -1,11 +1,11 @@
 #1
 
-print("Tere, maailm!")
+#print("Tere, maailm!")
 
 
-nimi=input("Mis on sinu nimi?")
-vanus=input("Mis on sinu vanus?")
-print(f"Tere, maailma! Tervitan sind {nimi}! Sa oled {vanus} aastat vana.")
+#nimi=input("Mis on sinu nimi?")
+#vanus=input("Mis on sinu vanus?")
+#print(f"Tere, maailma! Tervitan sind {nimi}! Sa oled {vanus} aastat vana.")
 
 #2
 
@@ -19,12 +19,12 @@ kas_käib_koolis=True
 
 from random import *
 
-kommid_laual = random.randint(1, 50)
-print("Laual on kommi:", kommid_laual)
+kommid_laual = randint(1, 50)
+print(f"Laual on {kommid_laual}kommi:")
 
 votta = int(input("Mitu kommi soovid laualt ära võtta? "))
 
 kommid_laual = kommid_laual - votta
-print("Nüüd on laual kommi:", kommid_laual)
+print(f"Nüüd on laual {kommid_laual} kommi:")
 
 #4
