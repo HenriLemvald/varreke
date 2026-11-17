@@ -1,2 +1,78 @@
-print("Tere, maailm!")
-print("R")
+# #1.2Esimene programm
+# print("Tere, maailm!")
+# ("R")
+# print("Mul on", 3, "kassi")
+# print("Aasta on", 2026, sep="-")
+
+# print("2026", "10", "01", sep="-")
+# print("Sama", end="") # end="\n" =Enter, "\t"=Tab
+# print("rida")
+
+# #1.3Muutujad ja omistamine
+# nimi="Python" #str-sõne
+# vanus=25 #int-täisarv
+# laius=3.75 #float-ujukomaarv
+# täna_on_koolis=True #bool-tõeväärtus
+
+# print(nimi*3)
+# print(nimi+nimi)
+# print(vanus+laius)
+# print(täna_on_koolis)
+# print(vanus+1)
+
+
+# KAIBEMAKS = 0.24
+# hind = 100
+# print("Hind koos käibemaksuga:", hind * (1 + KAIBEMAKS))
+
+# nimi=input("Mis on sinu nimi?")#tagastab str formaadis
+# print(f"Tere, {nimi}")
+
+# #a ja b tekstid
+# a = input("Esimene arv: ")
+# b = input("Teine arv: ")
+# print(a + b) #a+b="2"+"5"=>"25"
+# a = int(input("Esimene arv: ")) #"2" int ("2") ->2
+# b = int(input("Teine arv: "))
+# print(a + b) 
+
+# #Artimeetilised põhioperatsioonid
+# print(f"astendamine {a}**{b} ={a**b}")
+# print(f"korrutamine {a}*{b} ={a*b}")
+# print(f"jagamine {a}/{b} ={a/b}")
+# print(f"jagaminse täisarvuline osa {a}//{b} ={a//b}")
+# print(f"jagamisjääk {a}%{b} ={a%b}")
+# print(f"lahutamine {a}-{b} ={a-b}")
+# print(f"liitmine {a}+{b} ={a+b}")
+
+# # print(f"... {a}...{b} ={a**b}")
+# # print(f"... {a}...{b} ={a**b}")
+
+# #1.7
+
+import sys
+from time import *
+from os import *      #kaivitamiseks kasutada Ctrl+F5
+print("Valgusfoor käivitub!")
+print() # tyhi rida
+system("cls") #ekraani puhastus /clear
+print("Punane põleb- seisa!")
+sleep(2)
+system("cls")
+print("Punane ja kollane põlevad - valmistu!")
+sleep(2)
+system("cls")
+print("Roheline põleb - sõida!")
+sleep(5)
+system("cls")
+print("Kollane põleb - tähelepanu!")
+sleep(2)
+system("cls")
+print("Valgusfoor lõpetas töö.")
+
+
+
+
+
+
+
